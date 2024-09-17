@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
@@ -7,8 +8,6 @@ int main()
     scanf("%d", &n);
     for(i = 0; i < n; i++) {
         scanf("%s", arr);
-        for(j=0; arr[j]!='\0'; j++) {
-        }
-        printf("%c%c\n", arr[0], arr[j-1]);
+        printf("%c%c\n", arr[0], arr[strlen(arr)-1]);
     }
 }
