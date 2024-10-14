@@ -1,10 +1,10 @@
 # [level 0] 마지막 두 원소 - 181927 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181927?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181927) 
 
 ### 성능 요약
 
-메모리: 33.6 MB, 시간: 0.07 ms
+메모리: 33.6 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 24일 15:59:15
+2024년 10월 14일 21:13:43
 
 ### 문제 설명
 
