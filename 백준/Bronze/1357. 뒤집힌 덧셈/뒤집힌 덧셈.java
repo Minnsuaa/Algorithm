@@ -8,12 +8,8 @@ public class Main {
 
         StringBuffer strX = new StringBuffer(x);
         StringBuffer strY = new StringBuffer(y);
-        
-        int X = Integer.parseInt(strX.reverse().toString());
-        int Y = Integer.parseInt(strY.reverse().toString());
 
-        String plus = Integer.toString(X+Y);
-        StringBuffer strPlus = new StringBuffer(plus);
+        StringBuffer strPlus = new StringBuffer(Integer.toString(Integer.parseInt(strX.reverse().toString()) + Integer.parseInt(strY.reverse().toString())));
 
         System.out.print(Integer.parseInt(strPlus.reverse().toString()));
     }
